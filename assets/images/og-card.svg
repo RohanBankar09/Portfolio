@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#09090D"/>
+  <!-- Grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1C1C26" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#6D28D9" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="600" cy="315" r="320" fill="url(#glow)"/>
+  
+  <rect x="80" y="80" width="1040" height="470" rx="16" fill="#0F0F15" stroke="#292936" stroke-width="2"/>
+  
+  <!-- Terminal Header -->
+  <rect x="80" y="80" width="1040" height="50" rx="16" fill="#17171F"/>
+  <circle cx="120" cy="105" r="7" fill="#EF4444"/>
+  <circle cx="145" cy="105" r="7" fill="#F59E0B"/>
+  <circle cx="170" cy="105" r="7" fill="#8B5CF6"/>
+  <text x="600" y="110" fill="#A1A1AA" font-family="monospace" font-size="14" text-anchor="middle">root@rohan-security: ~/portfolio</text>
+
+  <!-- Content -->
+  <text x="140" y="210" fill="#8B5CF6" font-family="monospace" font-size="20" letter-spacing="3">// CYBERSECURITY PROFESSIONAL</text>
+  <text x="140" y="290" fill="#FFFFFF" font-family="sans-serif" font-weight="800" font-size="64">ROHAN BANKAR</text>
+  <text x="140" y="340" fill="#C4B5FD" font-family="monospace" font-size="22">VAPT | WEB APPLICATION SECURITY | PENETRATION TESTING</text>
+  <text x="140" y="420" fill="#A1A1AA" font-family="sans-serif" font-size="22">"Securing the digital world, one vulnerability at a time."</text>
+  
+  <rect x="140" y="470" width="340" height="42" rx="6" fill="#17171F" stroke="#8B5CF6" stroke-width="1"/>
+  <text x="160" y="497" fill="#C4B5FD" font-family="monospace" font-size="15">STATUS: AVAILABLE FOR OPPORTUNITIES</text>
+</svg>
